@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Vite & UnoCSS
+frontend/.vite/
+frontend/node_modules/
+frontend/dist/
+
+# Fastify & SQLite
+backend/node_modules/
+backend/dictionary.db
+backend/*.log
+
+# Meilisearch binary
+meilisearch.exe
+
+# Dumps and temp data
+dumps/
+data.ms/
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+xtrastuff/*.psd
+xtrastuff/*.xcf
